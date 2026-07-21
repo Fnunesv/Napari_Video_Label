@@ -1,0 +1,10 @@
+name: bio-video-gui
+display_name: Bio Video GUI
+contributions:
+  commands:
+    - id: bio-video-gui.make_widget
+      python_name: bio_video_gui._widget:BioVideoWidget
+      title: Open Bio Video GUI
+  widgets:
+    - command: bio-video-gui.make_widget
+      display_name: Video Annotation & Export
