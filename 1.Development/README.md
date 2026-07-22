@@ -1,11 +1,6 @@
 # bio-video-gui
 
-Napari plugin to merge, annotate, crop, and export microscopy timelapses
-(.tif stacks) as presentation-ready videos. Generalizes the "merge and
-annotate videos" logic from
-`actin-polarization/2.Processing/Actin_Polarization_FullProcessing copy.py`
-into reusable, pixel-size/frame-rate-agnostic building blocks.
-
+Napari plugin to merge, annotate scale bars, timestamps, labels, add regions, crop, and export microscopy timelapses (.tif stacks) as presentation-ready videos
 Highlights:
 - Merge phase stacks first, **define/edit/delete phase labels afterwards**
   in an editable table.
