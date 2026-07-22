@@ -1,6 +1,6 @@
 [← Back to tutorial index](tutorial.md)
 
-# 12. Batch processing (apply current settings to many files)
+# 11. Batch processing (apply current settings to many files)
 
 Applies your current timestamp/scale bar/labels/contrast/highlight-region
 settings to many file-sets at once — e.g. exporting the same annotated
@@ -16,12 +16,24 @@ you have phases `baseline, activation` and select 5 files for each, you get
 ## Steps
 
 1. Enter **Batch phase names (comma-separated)**, e.g. `baseline,
-   activation`.
+   activation` — or, if you've already defined phases in section 7's table
+   for an interactive merge, click **Use names from section 7 phase table**
+   to copy them in instead of retyping. This only fills the field once,
+   on click; it won't overwrite anything you type afterward, and editing
+   the section 7 table later won't change it again unless you click the
+   button a second time.
 2. Click **Select files for each phase...** — you'll be prompted once per
    phase name to choose files, in item order.
 3. Optionally check **Also apply the current crop rectangle (if any) to
    each item** (section 9) to crop every item the same way.
 4. Click **Run batch export...** and choose an output folder.
+
+> Reusing section 7's names is safe when every item in the batch has the
+> **same phase structure** (same number of phases, same order). Each
+> item's actual phase *start frames* are still recomputed from its own
+> stack lengths — they aren't copied — so this only saves you from
+> retyping names, not from checking that your stacks are structured
+> consistently.
 
 <p align="center">
   <img src="images/12-batch-processing.png" width="700" alt="Batch processing section">

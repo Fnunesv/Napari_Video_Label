@@ -516,6 +516,10 @@ class BioVideoWidget(QWidget):
         self.batch_phase_names_edit = QLineEdit("baseline, activation")
         v.addWidget(self.batch_phase_names_edit)
 
+        self.copy_phase_names_btn = QPushButton("Use names from section 7 phase table")
+        self.copy_phase_names_btn.clicked.connect(self._on_copy_phase_names)
+        v.addWidget(self.copy_phase_names_btn)
+
         self.batch_select_btn = QPushButton("Select files for each phase...")
         self.batch_select_btn.clicked.connect(self._on_select_batch_files)
         v.addWidget(self.batch_select_btn)
@@ -1010,6 +1014,15 @@ class BioVideoWidget(QWidget):
         QMessageBox.information(self, "Export complete", f"Saved to:\n{out}")
 
     # ---- batch processing ---------------------------------------------------------
+
+    def _on_copy_phase_names(self) -> None:
+        if not self._phases:
+            QMessageBox.warning(
+                self, "No phases defined",
+                "Define phases in section 7's table first (requires a merged timeline).",
+            )
+            return
+        self.batch_phase_names_edit.setText(", ".join(p.name for p in self._phases))
 
     def _on_select_batch_files(self) -> None:
         names = [n.strip() for n in self.batch_phase_names_edit.text().split(",") if n.strip()]

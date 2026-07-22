@@ -1,6 +1,6 @@
 [← Back to tutorial index](tutorial.md)
 
-# 4. Timestamp
+# 5. Timestamp
 
 Burns a running time label into every frame, computed from the frame index
 and the **Frame interval** set in section 2.
@@ -15,7 +15,7 @@ and the **Frame interval** set in section 2.
 | Font color | Click the swatch to open a color picker |
 
 <p align="center">
-  <img src="images/04-timestamp.png" width="500" alt="Timestamp section">
+  <img src="images/04-timestamp-scalebar.png" width="500" alt="Timestamp section">
 </p>
 
 <!--

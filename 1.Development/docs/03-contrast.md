@@ -1,6 +1,6 @@
 [← Back to tutorial index](tutorial.md)
 
-# 3. Contrast
+# 4. Contrast
 
 Controls how raw intensity values are stretched to the displayed 8-bit
 range before annotations are drawn.

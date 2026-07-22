@@ -19,7 +19,10 @@ Highlights:
   automatically (coordinates shift to match) and stay independently editable.
 - Live single-frame preview that updates as you change any setting.
 - Export to MP4/AVI/MOV, a multi-page TIFF stack, or a PNG sequence.
-- Batch processing: apply the current settings to many file-sets at once.
+- Batch processing: apply the current settings to many file-sets at once;
+  phase names can be copied in from the section 7 phase table with one
+  click instead of retyping (opt-in — won't overwrite anything you've
+  already typed unless you click it).
 
 See `handoff.md` for full session-by-session history and known gaps.
 
@@ -31,15 +34,31 @@ section of the widget, with screenshots.
 Requires Python >=3.10 and napari (`pip install napari[all]` if you don't
 have it yet).
 
+**If you don't have napari, follow these steps**
+
+1. Create a virtual environment to run napari visualization (always recommended)
+```bash
+conda create -n napari_env
+```
+
+2. Install napari and then bio-video-gui
+```bash
+pip install napari[all]
+```
+
 **Quick install (no manual clone):**
+On the virtual environment (napari_env)
+
 
 ```bash
+conda activate napari_env
 pip install "git+https://github.com/Fnunesv/Napari_Video_Label.git#subdirectory=1.Development"
 ```
 
 **Clone + editable install** (if you also want to run the tests or edit code):
 
 ```bash
+conda activate napari_env
 git clone https://github.com/Fnunesv/Napari_Video_Label.git
 cd Napari_Video_Label/1.Development
 pip install -e .

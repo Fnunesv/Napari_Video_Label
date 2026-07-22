@@ -1,6 +1,6 @@
 [← Back to tutorial index](tutorial.md)
 
-# 8. Highlight regions (box or circle on the image)
+# 9. Highlight regions (box or circle on the image)
 
 Draw one or more rectangles/circles directly on the image that appear only
 during a chosen frame range — e.g. to draw attention to an activated region.
@@ -19,8 +19,13 @@ during a chosen frame range — e.g. to draw attention to an activated region.
    (or delete it in napari — both stay in sync).
 
 <p align="center">
-  <img src="images/08-highlight-regions.png" width="700" alt="Highlight regions section">
+  <img src="images/07-highlight-regions.png" width="700" alt="Highlight regions section">
 </p>
+
+<p align="center">
+  <img src="images/07-highlight-regions02.png" width="700" alt="Highlight regions section">
+</p>
+
 
 <!--
 SCREENSHOT NEEDED: images/08-highlight-regions.png

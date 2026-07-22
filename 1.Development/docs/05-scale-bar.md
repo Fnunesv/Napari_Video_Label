@@ -1,6 +1,6 @@
 [← Back to tutorial index](tutorial.md)
 
-# 5. Scale bar
+# 6. Scale bar
 
 Draws a physical-length scale bar (and its label) on every frame, sized
 using the **Pixel size** from section 2.
@@ -15,7 +15,7 @@ using the **Pixel size** from section 2.
 | Color | Applies to both the bar and its label |
 
 <p align="center">
-  <img src="images/05-scale-bar.png" width="500" alt="Scale bar section">
+  <img src="images/04-timestamp-scalebar.png" width="500" alt="Scale bar section">
 </p>
 
 <!--

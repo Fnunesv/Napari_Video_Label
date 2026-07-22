@@ -1,6 +1,6 @@
 [← Back to tutorial index](tutorial.md)
 
-# 9. Crop a region into its own working stack
+# 10. Crop a region into its own working stack
 
 Creates a new, independent working stack from a rectangular sub-region of
 whichever stack is currently selected as **Active working stack** (section

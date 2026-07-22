@@ -11,14 +11,18 @@ single working timeline that the rest of the widget operates on.
    added as its own napari image layer. If the TIFF has ImageJ metadata,
    pixel size and frame interval are read automatically into section 2
    (Calibration).
-2. Select one or more layers in the list above (order matters — they're
-   concatenated in the order selected).
+2. Select one or more layers in the list above (order matters!)
 3. Click **Merge selected layers → timeline**. This creates a new working
-   stack named `merged timeline`.
+   stack named `merged timeline`. If you just want to edit one file, no problem, simply click only on that file. 
 
 <p align="center">
   <img src="images/01-merge.png" width="700" alt="Merge section">
 </p>
+
+<p align="center">
+  <img src="images/01-merge02.png" width="700" alt="Merge section">
+</p>
+
 
 <!--
 SCREENSHOT NEEDED: images/01-merge.png

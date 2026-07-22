@@ -1,6 +1,6 @@
 [← Back to tutorial index](tutorial.md)
 
-# 11. Export
+# 10. Export
 
 Renders the full annotated stack (all settings from sections 2–8 applied to
 every frame of the **Active working stack**) and saves it to disk.
@@ -22,7 +22,7 @@ every frame of the **Active working stack**) and saves it to disk.
    the image sequence option).
 
 <p align="center">
-  <img src="images/11-export.png" width="500" alt="Export section">
+  <img src="images/10-export.png" width="500" alt="Export section">
 </p>
 
 <!--

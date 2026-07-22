@@ -1,6 +1,6 @@
 [← Back to tutorial index](tutorial.md)
 
-# 7. Phase annotations (defined after merging)
+# 8. Phase annotations (defined after merging)
 
 After merging layers into a timeline (section 1), use this section to label
 which frame ranges correspond to which experimental phase (e.g.
@@ -20,8 +20,14 @@ Rows are sorted automatically by start frame; the displayed label switches
 at each phase's start frame and holds until the next one.
 
 <p align="center">
-  <img src="images/07-phase-table.png" width="700" alt="Phase table">
+  <img src="images/06-phase-table.png" width="700" alt="Phase table">
 </p>
+
+## The video should take form with all the annotations at this point 
+<p align="center">
+  <img src="images/06-videotemp.png" width="700" alt="Phase table">
+</p>
+
 
 <!--
 SCREENSHOT NEEDED: images/07-phase-table.png

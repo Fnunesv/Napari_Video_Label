@@ -1,6 +1,6 @@
 [← Back to tutorial index](tutorial.md)
 
-# 6. Condition label
+# 7. Condition label
 
 A static free-text label (e.g. a construct or condition name) burned into
 every frame, independent of phase/time.
@@ -15,7 +15,7 @@ every frame, independent of phase/time.
 | Font color | Click the swatch to open a color picker |
 
 <p align="center">
-  <img src="images/06-condition-label.png" width="500" alt="Condition label section">
+  <img src="images/05-condition-label.png" width="500" alt="Condition label section">
 </p>
 
 <!--

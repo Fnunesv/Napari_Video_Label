@@ -1,6 +1,6 @@
 [← Back to tutorial index](tutorial.md)
 
-# 10. Live preview
+# 2. Live preview
 
 A single annotated frame that updates automatically as you change any
 setting elsewhere in the widget — no button needed. This is what you should
@@ -13,9 +13,12 @@ be watching while tuning timestamp/scale bar/labels/contrast.
 | Bake full annotated stack as a layer (slower) | Renders and adds *every* frame as a new napari image layer, useful for scrubbing through the whole result before exporting |
 
 <p align="center">
-  <img src="images/10-live-preview.png" width="700" alt="Live preview section">
+  <img src="images/08-live-preview.png" width="700" alt="Live preview section">
 </p>
 
+<p align="center">
+  <img src="images/08-live-preview02.png" width="700" alt="Live preview section">
+</p>
 <!--
 SCREENSHOT NEEDED: images/10-live-preview.png
 napari canvas showing the "live annotation preview" layer with several
