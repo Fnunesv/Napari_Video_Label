@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bio-video-gui"
+version = "0.1.0"
+description = "Napari plugin to merge, annotate (timestamp/scale bar/phase labels/activation marker) and export microscopy timelapses as presentation videos."
+requires-python = ">=3.10"
+dependencies = [
+    "napari",
+    "numpy",
+    "opencv-python",
+    "tifffile",
+    "qtpy",
+]
+
+[project.entry-points."napari.manifest"]
+bio-video-gui = "bio_video_gui:napari.yaml"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+bio_video_gui = ["napari.yaml"]
+
+[tool.pytest.ini_options]
+addopts = "-p no:napari"
