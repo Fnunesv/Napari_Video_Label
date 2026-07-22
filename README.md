@@ -1,6 +1,7 @@
 # bio-video-gui
 
-Napari plugin to merge, annotate scale bars, timestamps, labels, add regions, crop, and export microscopy timelapses (.tif stacks) as presentation-ready videos
+Napari plugin to merge, annotate scale bars, timestamps, labels, add regions, crop, and export microscopy timelapses (.tif stacks) as presentation-ready videos.
+
 Highlights:
 - Merge phase stacks first, **define/edit/delete phase labels afterwards**
   in an editable table.
