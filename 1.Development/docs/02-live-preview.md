@@ -16,6 +16,8 @@ be watching while tuning timestamp/scale bar/labels/contrast.
   <img src="images/08-live-preview.png" width="700" alt="Live preview section">
 </p>
 
+| Do not forget to place the live rendering on top of the layers so that you can always visualize your changes
+
 <p align="center">
   <img src="images/08-live-preview02.png" width="700" alt="Live preview section">
 </p>
