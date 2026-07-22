@@ -1,6 +1,6 @@
 [← Back to tutorial index](tutorial.md)
 
-# 3. Calibration
+# 2. Calibration
 
 Sets the physical/temporal scale used everywhere else in the widget (scale
 bar length, timestamp values, export frame rate).
