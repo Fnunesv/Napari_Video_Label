@@ -23,6 +23,9 @@ Highlights:
 
 See `handoff.md` for full session-by-session history and known gaps.
 
+See [`docs/tutorial.md`](docs/tutorial.md) for a walkthrough of every
+section of the widget, with screenshots.
+
 ## Install
 
 Requires Python >=3.10 and napari (`pip install napari[all]` if you don't
