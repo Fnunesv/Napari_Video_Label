@@ -22,9 +22,6 @@ during a chosen frame range — e.g. to draw attention to an activated region.
   <img src="images/07-highlight-regions.png" width="700" alt="Highlight regions section">
 </p>
 
-<p align="center">
-  <img src="images/07-highlight-regions02.png" width="700" alt="Highlight regions section">
-</p>
 
 
 <!--
