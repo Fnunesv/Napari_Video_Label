@@ -23,16 +23,28 @@ Highlights:
 
 See `handoff.md` for full session-by-session history and known gaps.
 
-## Install (env: `image_analysis` or `napari_env`)
+## Install
+
+Requires Python >=3.10 and napari (`pip install napari[all]` if you don't
+have it yet).
+
+**Quick install (no manual clone):**
 
 ```bash
-conda activate napari_env
-cd 1.Development
-pip install -e .
-napari
+pip install "git+https://github.com/Fnunesv/Napari_Video_Label.git#subdirectory=1.Development"
 ```
 
-The widget appears under `Plugins > Bio Video GUI > Video Annotation & Export`.
+**Clone + editable install** (if you also want to run the tests or edit code):
+
+```bash
+git clone https://github.com/Fnunesv/Napari_Video_Label.git
+cd Napari_Video_Label/1.Development
+pip install -e .
+```
+
+Then launch napari (`napari` on the command line, or from Anaconda
+Navigator/your usual launcher). The widget appears under
+`Plugins > Bio Video GUI > Video Annotation & Export`.
 
 ## Architecture
 
